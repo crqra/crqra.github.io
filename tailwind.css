@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+
+.container {
+  @apply lg:w-2/4 mx-auto divide-y flex flex-col justify-center h-screen;
+}
+
+.hero {
+  @apply pb-10;
+}
+
+.hero h1 {
+  @apply text-5xl mb-2;
+}
+
+.hero h3 {
+  @apply text-2xl;
+}
+
+.hero a {
+  @apply font-bold;
+}
+
+.navbar {
+  @apply pt-10;
+}
+
+.navbar a {
+  @apply mr-8;
+}
+
+.icon {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  mask-size: cover;
+  background-color: #000000;
+}
+
+.icon-rss {
+  mask: url(/images/logo-rss.svg);
+}
+
+.icon-rss:hover {
+  background-color: #ee802f;
+}
+
+.icon-twitter {
+  mask: url(/images/logo-twitter.svg);
+}
+
+.icon-twitter:hover {
+  background-color: #1da1f2;
+}
+
+.icon-github {
+  mask: url(/images/logo-github.svg);
+}
+
+.icon-github:hover {
+  background-color: #000000;
+}
+
+.icon-mail {
+  mask: url(/images/mail-outline.svg);
+}
+
+.icon-mail:hover {
+  background-color: #5522fa;
+}
